@@ -3,10 +3,8 @@
 ## install
 ```
 $git clone https://github.com/mizuirorivi/ACFL
-$mv zsh_config ~/.config/
-$cd ~/.config/zsh_config
+$cd ACFL
 $sh install.sh
-$source ~/.zshrc
 ```
 ## 対応marchine
 * kali

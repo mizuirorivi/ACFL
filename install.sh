@@ -6,8 +6,10 @@ for FILE in ~/.config/zsh_config/*.zsh; do
 done
 " >> $HOME/.zshrc
 
-# install gdb-peda
+mv Zsh $HOME/.config/zsh_config
+source ~/.zshrc
 
+# install gdb-peda
 git clone https://github.com/longld/peda.git ~/peda
 echo "source ~/peda/peda.py" >> ~/.gdbinit
 echo "DONE! debug your program with gdb and enjoy"
